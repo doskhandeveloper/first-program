@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мое портфолио</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Мое портфолио</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">О себе</a></li>
+                <li><a href="#projects">Проекты</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>О себе</h2>
+            <p>Добро пожаловать в мое портфолио! Я веб-разработчик с навыками HTML, CSS и JavaScript. Я люблю создавать красивые и функциональные сайты.</p>
+        </section>
+        <section id="projects">
+            <h2>Мои проекты</h2>
+            <ul class="project-list">
+                <li><a href="#">Ссылка на проект 1</a></li>
+                <li><a href="#">Ссылка на проект 2</a></li>
+                <li><a href="#">Ссылка на проект 3</a></li>
+            </ul>
+        </section>
+        <section id="contacts">
+            <h2>Свяжитесь со мной</h2>
+            <form id="contact-form">
+                <label for="name">Имя</label>
+                <input type="text" id="name" name="name">
+                <div class="error-message" id="name-error"></div>
+
+                <label for="email">Электронная почта</label>
+                <input type="email" id="email" name="email">
+                <div class="error-message" id="email-error"></div>
+
+                <label for="message">Сообщение</label>
+                <textarea name="message" id="message" rows="5"></textarea>
+                <div class="error-message" id="message-error"></div>
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Мое портфолио.</p>
+        <div class="icon-container">
+            <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://vk.com" target="_blank"><i class="fab fa-vk"></i></a>
+            <a href="https://t.me" target="_blank"><i class="fab fa-telegram"></i></a>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
